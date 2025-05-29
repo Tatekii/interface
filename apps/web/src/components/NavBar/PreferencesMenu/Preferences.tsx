@@ -92,7 +92,7 @@ export function PreferenceSettings({
         {items.map(({ label, component }, index) => (
           <Pref key={`${label}_${index}`}>
             {label && (
-              <Text variant="body2" color="$neutral2" textAlign="left">
+              <Text variant="body2" color="$neutral2" textAlign="left" whiteSpace='nowrap'>
                 {label}
               </Text>
             )}

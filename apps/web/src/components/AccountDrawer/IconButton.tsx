@@ -113,6 +113,8 @@ const TextWrapper = styled.div`
   overflow: hidden;
   min-width: min-content;
   font-weight: 485;
+  /* Ensure proper text measurement for all languages */
+  white-space: nowrap;
 `
 
 const TextHide = styled.div`
