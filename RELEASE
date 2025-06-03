@@ -1,10 +1,23 @@
-We are back with some new updates! Here’s the latest:
+IPFS hash of the deployment:
+- CIDv0: `QmYLUSmyP2FahHkscj7gQbA43gJY3PQ7gekdk8Tt3yfrVq`
+- CIDv1: `bafybeieurfbwxnagisdo3rash52dwiew7ivubnbpig7sy6ub4d3tjfr73q`
 
-Search Improvements: Enjoy an improved search algorithm, with more relevant information. Recent history also now includes wallet search results. 
+The latest release is always mirrored at [app.uniswap.org](https://app.uniswap.org).
 
-Other changes: 
+You can also access the Uniswap Interface from an IPFS gateway.
+**BEWARE**: The Uniswap interface uses [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to remember your settings, such as which tokens you have imported.
+**You should always use an IPFS gateway that enforces origin separation**, or our hosted deployment of the latest release at [app.uniswap.org](https://app.uniswap.org).
+Your Uniswap settings are never remembered across different URLs.
 
-- Added haptics when repositioning favorited tokens and wallets
-- Improved token selector behavior, with more relevant network filtering, as well as an improved experience when flipping input and output.
-- Improvements to NFT spam detection
-- Various bug fixes and performance improvements
+IPFS gateways:
+- https://bafybeieurfbwxnagisdo3rash52dwiew7ivubnbpig7sy6ub4d3tjfr73q.ipfs.dweb.link/
+- [ipfs://QmYLUSmyP2FahHkscj7gQbA43gJY3PQ7gekdk8Tt3yfrVq/](ipfs://QmYLUSmyP2FahHkscj7gQbA43gJY3PQ7gekdk8Tt3yfrVq/)
+
+### 5.87.1 (2025-05-29)
+
+
+### Bug Fixes
+
+* **web:** fix token warning modal plural crash (#20340) 0adb22e
+
+
